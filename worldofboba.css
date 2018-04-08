@@ -1,0 +1,142 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+  height: 100%;
+  background-color: #FFBDB9;
+}
+body {
+   height: 100%;
+   font-family: "Arial Black";
+}
+
+header {
+    /* width: 100%; */
+    background-color: #FF594C ;
+    padding-left: 100px;
+    border: 26px solid #4CFF99;
+    margin: 0 auto;
+    font-size: 26px ;
+    font-family: "Arial Black";
+    font-weight:500;
+    /* display: block; */
+    font-stretch: ultra-expanded;
+}
+  h1 {
+    
+    text-align: center;
+    font-family: "Arial Black";
+    font-weight:500;
+  }
+nav {
+    /* float: left; */
+     font-family:"Arial Black";
+    
+    
+}
+ nav ul { 
+    /* padding: ; */
+    /* float: left; */
+    /* border-bottom: ; */
+    list-style-type: none;
+}
+nav li {
+    /* float: left; */
+    text-align:center;
+    margin:10px;
+    display: inline-block;
+  
+}
+nav li a {
+    height: 50px;
+    padding: 12px 18px 8px 18px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: snow;
+    text-align: center;
+
+    
+}
+
+
+
+article {
+  text-align: center;
+  font-family: "Arial Black";
+  font-weight:100;
+}
+
+
+
+
+
+
+#recipe{
+  border: 26px solid #FF594C;
+  background-color: #B21E11;
+  font-size: xx-large;
+  font-family: "Arial Black";
+  font-weight:500;
+  padding: 50px;
+  font-stretch: expanded;
+
+}
+
+#ingredients{
+  font-family: "Arial Black";
+  padding: 40px;
+}
+#ingredients::first-letter{
+  font-weight: bold;
+  color: #B26C22;
+
+}
+
+#ingredients ul li{
+  font-family: "Arial Black";
+}
+
+#prep{
+  font-family: "Arial Black";
+  font-weight:100;
+  padding: 40px;
+}
+#prep::first-letter{
+  font-weight: bold;
+  color: #B26C22;
+}
+ h3 p {
+  font-family: "Arial Black";
+  font-weight: 100;
+  
+}
+
+
+
+#celebrities{
+  border: 26px solid #B21E11;
+  background-color: #FF594C;
+  font-size: xx-large;
+  text-align: center;
+  /* width: 100%; */
+  font-family: "Arial Black";
+  font-weight:500;
+  padding:50px;
+
+}
+
+
+
+footer {
+    /* width: 790px; */
+    background-color:;
+    color:;
+    clear: both;
+    display: block;
+}
+
+#ab{
+  max-width: 20%;
+  border-radius: 25px;
+}
